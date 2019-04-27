@@ -1,0 +1,57 @@
+Python
+Third Week
+
+LISTAS
+
+len -> count elements in a list
+
+like in Shell validate a list
+in -> if into a list
+not in -> if not in a list
+
+add an element at the end of a list
+example
+	mis_frutas.append('banano')
+
+We also can add another list into a list
+	mis_frutas.append([])
+
+Exercise
+ Lista de compras
+- Verduras (tomates,papas,cebollas,ajos)
+- frutas (piña,naranja)
+- carnes (mortadela, pollo, costilla de cerdo)
+- limpieza (jabon, cloro, shampoo)
+
+1) crear listas de las categorias
+2) crear la lista de compras general
+
+
+append = add new elements
+extend = add complete lists
+
+3) cuantos articulos voy a comprar ?
+4) Agregar 
+fruta 'mango'
+verdura 'chile'
+
+efecto en la lista general
+
+5) Utilizando 1,2,4
+Remover verduras
+
+
+TUPLAS
+
+tupla -> ('a',1,2,None) # Once it is created we cannot modify its content
+
+t = ([1,2,3,4])
+
+t[0] = Print 1
+
+slicing
+	t[0:2] -> Imprime 1,2 excluye el 2 porque es el ultimo
+	t[0:-1] -> Imprime 1,2,3
+	t[1:1] -> Imprime todo
+
+6)
