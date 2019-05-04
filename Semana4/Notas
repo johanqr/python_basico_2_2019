@@ -1,0 +1,84 @@
+Semana 4
+- Listas
+- Tuplas
+- Diccionarios
+	- lambda
+	- map
+	- filter
+	
+- Funciones
+
+
+L = [x|a|w|y|b]
+key='Juan'
+
+d=[34][31][[[3,4]][17]
+
+PD: Para las llaves que sean tipos de datos que no tengan mutacion como las tuplas
+
+Creacion de diccionarios
+------------------------
+
+mi_dict = {'llave1' : 'valor1','llave2' : 'valor2'}
+otra_dict = dict(llave1 = 'valor1',llave2='valor2')
+
+Los nombres pueden ir entre comillas o sin comillas mientras no sea una variable mutable.
+
+Ejercicios
+
+1- Crear una agenda de contactos utilizando diccionarios
+	Nombre			Telefono	email
+	Juan Perez 		83013040	jperez@gmail.com
+	Carlos Rojas	87001030	crojas@hotmail.com
+	Ana Marin		88888888	amarin@outlook.com
+
+Para ver valor en un diccionarios
+-Crear 
+agenda = {
+    'Juan Perez' : {'telefono' : 83013040, 'correo' : 'jperez@gmail.com'}
+}
+
+-Mostrar
+agenda['Juan Perez']
+agenda['Juan Perez']['telefono']
+
+2- Cuantos contactos hay en la agenda ?
+
+3- Cuales son los nombres de los contactos
+
+4- Imprima la informacion de cada contactos
+
+5- Suponga que Juan Perez cambio de telefono, ahora tiene 2 telefonos
+	63101111
+	23333333
+	
+6- Agregar un nuevo contacto
+		Sofia Castro
+		33333333
+		sofia@gmail.com
+		
+Funciones
+----------
+
+def <nombre> (<parametros>):
+
+	Ejercicios
+	1- Hacer una funcion que imprima 
+	*
+	**
+	***
+	****
+	
+	2- Crear una funcion que agregue contactos a la agenda anterior
+	
+	lambda
+	-------
+	(lambda a,b : a+b)(3,4)
+	
+	opciones de uso
+	x = (lambda a,b : a+b)
+	x(3,4)
+
+		Ejercicios
+		1- Crear una calculadora que sume, reste, multiplique, divida, potencia (aeb), raiz utilizando lambda
+		2- Crear un diccionario de funciones que haga lo mismo que la numero 1
