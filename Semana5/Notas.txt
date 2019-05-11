@@ -1,0 +1,31 @@
+Semana 5
+
+La clase mas sencilla
+
+class First:
+	pass
+	
+Nota: Tratar de crearlas con la primera letra mayuscula para una mejor comprension (no es mandatorio)
+
+Crear objeto el tipo de la clase
+
+a = First()
+
+Practicas
+1- Crear una clase bebe
+2- Declarar 4 acciones
+	- Respirar
+	- Comer
+	- Llorar
+	- Dormir
+3- Simular un dia normal de un bebe 
+
+4- Cuando el bebe nace que tenga un nombre
+
+
+
+def correr(self):
+    print('Soy un {}. '
+          'Estoy corriendo'.format(self.especie)) # format me permite sustituir lo que esta en llaves 
+		  
+5- Crecer bebe(edad=1)
