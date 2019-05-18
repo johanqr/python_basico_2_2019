@@ -1,0 +1,60 @@
+Semana 6
+Archivos
+Pycharm -> Crear un archivo
+	mis_datos.txt
+	nombre, direccion, telefono
+	
+Python
+script -> codigo -> leer
+
+Leer contenido archivo
+
+f = open('mis_datos.txt') # abre el archivo
+f.readlines() # lee el contenido
+
+from os import path # para ajustar la ruta de acuerdo al sistema operativo
+ruta_archivo = path.join('directorio', 'archivo.txt')
+
+
+Escritura
+# Se abre el archivo para escritura con el modo 'w'
+archivo = open('texto.txt', 'w')
+# se escriben algunas líneas
+archivo.write('primera linea\n')
+archivo.write('segunda linea\n')
+# Y se cierra el archivo para que el sistema actulice la información en disco
+archivo.close()
+
+close # salva y cierra el archivo
+
+with open('data.txt', 'w') as f: # con with abre y cierra automaticamente
+    f.write('Hello\n')
+	
+Lectura
+
+with open('data.txt', 'r') as f:
+    text = f.read()
+	
+
+Escritura de varias líneas
+
+with open('mas_datos.txt', 'a') as f:
+    f.writelines(['primera linea\n', 'segunda linea\n'])
+with open('mas_datos.txt', 'r') as f:
+    text = f.read()
+    text
+text
+'primera linea\nsegunda linea\nprimera linea\nsegunda linea\nprimera linea\nsegunda linea\nprimera linea\nsegunda linea\n'
+
+return matches()
+
+#Definiendo pacientes
+juanito = {'identificación':1,'Nombre':'Juan','Apellido':'Mora','teléfono':24578451,
+'dirección':'San Jose 3 st, 5 Av','lista_de_enfermedades_tratadas' : ['dolor de cabeza'],
+'lista_de_medicamentos_que_toma': ['aspirina', 'panadol']}
+
+#Agregando pacientes
+la_clinica.agregar_paciente(**juanito) # Cuando se usa ** popula todos los parametros que tiene juanito dentro del diccionario, por lo cual
+										# sin los ** solo agregaria un parametro el diccionario
+										# ** diccionario
+										# * para tupla o lista
