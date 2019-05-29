@@ -1,0 +1,50 @@
+1- 
+Lista: Es un conjunto ordenado de valores, puede ser un objecto número, cadena, función, clase, instancia, etc. Presenta una serie de funciones que permiten un manejo de los valores que posee y es mutable.
+Tupla: Es igual que la lista pero es inmutable o sea que no puede ser modicada.
+
+2- La sintaxis sería a if condition else b 
+por ejemplo 
+	'true' if True else 'false'
+Claramente vemos las 3 opciones en una sola linea.
+
+3- 	La función dir() devuelve una lista ordenada alfabéticamente de los métodos y propiedades de un objeto.
+	La función help() es para uso interactivo cuando se necesita ayuda a escribir un programa en python o user un modulo.
+
+4- Los diccionarios son una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones.
+
+5-
+ *args: es una lista de argumentos, como argumentos posicionales.
+ 
+ **kwargs: es un diccionario cuyas claves se convierten en parámetros y sus valores en los argumentos de los parámetros.
+
+6- Un indice negativo es usado para iniciar desde el último elemento de una lista, tupla o cualquier otro contenedor que soporte indices.
+
+7- 	Se puede hacer con la funcion random por ejemplo
+		random.shuffle(lista1, random.random)
+
+8- Usando sort podemos ordenar listas por medio de dos opciones reverse (ordena decendentemente) o key (de acuerdo a la funcion de comparacion que se desea)
+
+9- 
+A0: Diccionario creado con las variables en la izquierda y sus valores a la derecha
+A1: Un secuencia creada de 0 a 10
+A2: Ordena la variable i en un ciclo desde i en la lista del rango de A1 si i está contenido en A0
+A3: Recorre y mustra los valores del diccionario A0
+A4: i recorre el rango de A1 y muestra el contenido si está en A3
+A5: Crea un diccionario con i al cuadrado usando como un rango A1
+A6: Crea una lista de rangos al cuadrado de i utilizando el rango de A1
+
+10- 
+1- con la funcion random
+	Enteros: randint(a, b) 
+	Decimales:random.random()
+2- pickle es el proceso donde la jerarquía de un objecto es convertida en un flujo de bytes y el unpickling es lo opuesto.
+3-  
+	map:espera una objecto función de cualquier numero de iteraciones como listas o diccionarios y ejecuta cada uno de los elementos en la secuencia y regresa una lista de elementos modificada por la funcion.
+	
+	lambda: función usada para crear objetos de funciones pequeños y de un solo uso.
+	
+	filter: espera dos argumentos un ojecto funcion y una iteración. El objeto regresa un valor buleano, la funcion es llamada por cada elemento de la iteración y el filtro regresa solo los elementos en true.
+	
+4- 	List Comprehension: Permite contener mulitples listas dentro de otras listas que pueden tener o no tener condicionales.
+	Dictionary Comprehensions: Una idea extendida de List comprehension que abarca también diccionarios.
+	Set Comprehensions: Muy similar a la las List Comprehension solo que usa brackets como las tuplas.
