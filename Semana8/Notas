@@ -1,0 +1,15 @@
+re.sub(r'([\w\.-]+)@([\w\.-]+)'
+
+Expresion regular para buscar
+
+\w = alfanumerico
+\. = que busque un punto
+- = que busque guiones
++ = que aparezca 1 o más veces
+
+@ = dividido por un arroba
+
+\w = alfanumerico
+\. = que busque un punto
+- = que busque guiones
++ = que aparezca 1 o más veces
